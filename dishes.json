@@ -1,0 +1,59 @@
+{
+  "restaurant": {
+    "name": "OPTIONS Restro Menu",
+    "location": "Malad West, Mumbai",
+    "contact": "+91 98925-27420"
+  },
+  "menu": {
+    "vegetarian": {
+      "Indian": [
+        {
+          "id": 1001,
+          "name": "Paneer Tikka",
+          "serves": "2 adults",
+          "price": 250,
+          "description": "Succulent cubes of paneer marinated in aromatic spices and grilled to perfection.",
+          "category": "North Indian",
+          "image": "https://example.com/paneer-tikka.jpg",
+          "type": "Vegetarian"
+        },
+        {
+          "id": 1002,
+          "name": "Palak Paneer",
+          "serves": "2 adults",
+          "price": 220,
+          "description": "Creamy spinach curry with soft paneer cubes. A nutritious and flavorful North Indian favorite.",
+          "category": "North Indian",
+          "image": "https://example.com/palak-paneer.jpg",
+          "type": "Vegetarian"
+        }
+      ],
+      "Continental": [
+        {
+          "id": 1003,
+          "name": "Vegetable Lasagna",
+          "serves": "2 adults",
+          "price": 300,
+          "description": "Layers of pasta, mixed vegetables, and cheese baked to golden perfection.",
+          "category": "Italian",
+          "image": "https://example.com/vegetable-lasagna.jpg",
+          "type": "Vegetarian"
+        }
+      ]
+    },
+    "non_vegetarian": {
+      "Indian": [
+        {
+          "id": 1004,
+          "name": "Butter Chicken",
+          "serves": "2 adults",
+          "price": 320,
+          "description": "Tender chicken pieces in a rich, creamy tomato sauce.",
+          "category": "North Indian",
+          "image": "https://example.com/butter-chicken.jpg",
+          "type": "Non-Vegetarian"
+        }
+      ]
+    }
+  }
+}
